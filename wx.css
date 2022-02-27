@@ -1,0 +1,1211 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+
+}
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+padding-top: 20px;
+
+justify-content: space-between;
+text-align: center;
+align-content: center;
+align-items: center;
+padding-right: 150px;
+padding-left: 29px;
+
+}
+.textbox{
+	width: 70px;
+	height: 70px;
+	background: #0C3C60;
+	position: fixed;
+	border-right: 0px;
+	text-align: center;
+	bottom: 10px;
+	right: 20px;
+}
+ .textbox i{
+ 	padding-top: 4px;
+	font-size: 35px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 20px;
+	
+}
+.click{
+	display: flex;
+	gap: 45px;
+	/*margin-left: -340px;*/
+	margin-bottom: 10px;
+
+}
+.click i{
+	padding:0px  10px;
+	font-size: 28px;
+	margin-top: 27px;
+}
+span i{
+	color: green;
+	border-right: 1px solid black;
+}
+
+.link a{
+	margin-left: 20px;
+
+}
+.link{
+	font-size: 19px;
+}
+span a{
+	color: white;
+	text-decoration: none;
+}
+.bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: #0C3C60;
+	height: 70px;
+	width: 98.78%;
+	text-align: center;
+	align-items: center;
+	padding: 0px 90px;
+	position: fixed;
+	z-index: 2;
+	
+	
+
+}
+.james{
+	
+	font-size: 29px;
+	font-weight: 500;
+	color: white;
+	text-transform: uppercase;
+}
+.href a{
+	color: white;
+	padding: 20px;
+	font-size: 19px;
+	text-decoration: none;
+	text-transform: capitalize;
+
+}
+.one{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.mg{
+	height: 530px;
+	width: 100%;
+}
+.hder{
+	overflow-y: auto;
+}
+.achieving{
+	margin: 0px auto;
+	width: 54%;
+	background: white;
+	position: relative;
+	
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap:20px ;
+	padding-top: 50px;
+top: -150px;
+color: #072136;
+font-style: 'roto';
+
+}
+.achieving .strat{
+	font-size: 23px;
+	
+	margin: 10px 0px;
+	text-transform: capitalize;
+	font-weight: 300;
+}
+.two{
+	font-size: 54px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.achieving button{
+	background: transparent;
+	border: 1px solid #0C3B5F;
+	width: 29%;
+	font-size: 19px;
+	cursor: pointer;
+	margin-bottom: 1px;
+	text-transform: capitalize;
+}
+.achieving button:hover{
+	background: #0C3B5F;
+	color: white;
+}
+.three{
+	width: 80%;
+    margin: 0px auto;
+	border: 1px solid #c2bfbe;
+	height: auto;
+	display: flex;
+	position: relative;
+	top: -100px;
+	text-align: center;
+	gap: 15px;
+
+
+}
+.three p{
+	color: ;
+	font-size: 19px;
+	padding: 8px;
+	margin-top: 30px;
+
+}
+.three h1{
+	color:#061E32;
+
+}
+.on1, .two2{
+	border-right: 1px solid #c2bfbe;
+}
+.three button{
+	background:#0C3B5F;
+	color: white;
+	width: 50%;
+	height: 50px;
+	margin-top: 30px;
+	text-align: center;
+	border: none;
+	margin-bottom: 40px;
+	font-size: 19px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.three button:hover{
+	background: transparent;
+	border: 1px solid #0C3B5F;
+	color: #0C3B5F;
+}
+.maping{
+	width: 100%;
+	height: auto;
+	background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.7)),url(img/istockphoto-500541389-1024x1024.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+.href i{
+	margin-right: 23px;
+	font-size: 22px;
+}
+.about{
+	font-size: 45px;
+	color: black;
+	text-transform: uppercase;
+	padding-top: 75px;
+	margin-bottom: 30px;
+}
+ button{
+	width: 13%;
+	height: 54px;
+	background: transparent;
+	border: 1px solid #0C3B5F;
+	font-size: 19px;
+	cursor: pointer;
+	margin-top: 35px;
+	margin-bottom: 50px;
+	text-transform: capitalize;
+}
+button:hover{
+	background:#0C3B5F ;
+	color: white;
+}
+.pr{
+	font-size: 18px;
+	color: #4f4b4a;
+	width: 43%;
+	padding: 0px 10px;
+
+}
+.pr2{
+	font-size: 18px;
+	color:#4f4b4a;
+	width: 43%;
+	padding: 0px 10px;
+}
+ .conts.clients{
+	width: 50%;
+	margin: 0 auto;
+}
+.conts{
+	width: 100%;
+	height: auto;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	
+}
+.holds{
+	width: 100%;
+	display: flex;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.clients{
+	margin: 0px auto;
+	font-size: 45px;
+	font-weight: 300;
+	color: #072136;
+	padding-bottom: 20px;;
+	margin-top: 110px;
+	text-transform: uppercase;
+}
+.four_para{
+	width: 85%;
+	display: flex;
+	margin: 0px auto;
+	color:#757575 ;
+	justify-content: center;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+	border: 1px solid grey;
+	margin-bottom: 90px;
+
+}
+.para_one
+{
+	font-size: 35px;
+	width: 25%;
+	
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	border-right: 1px solid grey;
+}
+.para_two
+{
+	font-size: 35px;
+	width: 25%;
+	
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	text-transform: capitalize;
+	border-right: 1px solid grey;
+}
+.para_three
+{
+	font-size: 45px;
+	width: 25%;
+	
+	padding-top: 55px;
+	padding-bottom: 45px;
+	border-right: 1px solid grey;
+}
+.para_four
+{
+	font-size: 45px;
+	width: 25%;
+	
+     padding-top: 55px;
+	padding-bottom: 45px;
+		text-transform: capitalize;
+
+}
+.testmonials{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background: #F7F7F7;
+	justify-items: center;
+
+}
+.testmonial_sub{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 130px;
+	text-transform: uppercase;
+}
+.pages{
+	width: 37%;
+	
+	margin: 0px auto;
+	
+	margin-top: 20px;
+	font-size: 20px;
+}
+.pages h3{
+	margin-top: 10px;
+	font-size:22px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	color: #0C3C60;
+}
+.pages p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.as_futa{
+	background: #0C3B5E;
+	display: flex;
+	flex-direction: column;
+	padding: 0px 40px;
+
+
+}
+.as_futa h1{
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.left{
+	margin: 0px auto;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+.right_left{
+	display: flex;
+	gap: 0px;
+	flex-direction: row;
+	height: 80%;
+	padding: 0px 40px;
+}
+
+
+.right{
+	margin: 0px auto;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+
+}
+input{
+	height: 40px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #ffffff;
+	background: transparent;
+	margin-bottom: 10px;
+}
+label{
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.text_area{
+	width: 85%;
+	
+	height: auto;
+	margin: 0px auto;
+
+}
+.text_area label{
+	display: block;
+}
+textarea{
+	width: 75%;
+	height: 50px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #ffffff;
+
+}
+button{
+	width: 20%;
+}
+.text_area button{
+	background:#ffffff;
+	color: #0C3C60;
+	margin-left: 18px;
+	width: 15%;
+}
+.text_area button:hover{
+	background: transparent;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+.maps{
+	width: 90%;
+	height: 200px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+
+}
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background: #072136;
+	gap: 300px;
+	justify-content: center;
+	color: #ffffff;
+
+}
+.footer a{
+	color: #ffffff;
+}
+.footer h1{
+	font-size: 24px;
+
+}
+.leftone{
+	display: flex;
+	flex-direction: column;
+}
+.cntertwo a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	color: #ffffff;
+	text-transform: capitalize;
+}
+.footer h1{
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.centerthree i{
+	font-size: 20px;
+	padding: 10px;
+	margin-bottom: 30px;
+
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! design of projects page where we ae going to design ur page */
+.projectpage{
+	display: flex;
+	flex-direction: columun;
+	width: 100%;
+	justify-content: center;
+	height: auto;
+	margin: 0px auto;
+
+	
+	
+
+}
+.projectpage1{
+	display: flex;
+	flex-direction: columun;
+	width: 100%;
+	justify-content: center;
+	height: auto;
+	margin: 0px auto;
+	
+	margin-bottom: 30px;
+	
+	
+
+}
+h1{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 90px;
+	font-size: 45px;
+	color: #072136;
+}
+.bigproject{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0px auto;
+	
+	border:1px solid grey;
+	margin-bottom: 20px;
+
+}
+.bigproject h1{
+	font-size: 30px;
+}
+.bigproject p{
+	font-size: 15px;
+	color: #000000;
+	
+}
+.projectpage .left{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	padding-right: 7px;
+	
+		border-bottom: 1px solid grey;
+
+	
+}
+.projectpage1 .left1{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	padding-right: 7px;
+	
+		
+
+	
+}
+.left1 .first{
+
+}
+
+.first{
+	border-right: 1px solid grey;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	
+}
+.first3{
+	
+	padding-right: 20px;
+	
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	padding-right: 20px;
+	padding-top: 30px;
+	
+	
+}
+.first1{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+    padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px auto;
+
+}
+.left1 .first3{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+    padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px auto;
+
+
+}
+
+/*WELCOMW BACK Agian we ar going to design the page called the tips and tools */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+here the end of project design and start of the tis and tols design*/
+.next_hp{
+	width: 57%;
+	align-content: center;
+	display: block;
+	margin-top: 90px;
+	flex-direction: column;
+	margin: 0px auto;
+	padding: 0px;
+
+
+}
+ p .one_paragraphy{
+	font-size: 30px;
+
+}
+}
+.two_paragraphy p{
+	text-align: center;
+}
+.folders{
+	border-bottom: 1px solid black;
+	width: 80%;
+	margin: 0px auto;
+	
+}
+
+.fle2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.fle{
+	width: 100%;
+	margin: 0px auto;
+	background: red;
+	margin-bottom: 30px;
+	background: transparent;
+	border-bottom: 1px solid grey;
+	padding: 0px 40px;
+	margin-top: 50px;
+
+}
+
+.fle21{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.fle2 a{
+	color: #ffffff;
+	text-decoration: none;
+
+}
+.fle2 a:hover{
+	background:#0C3C60 ;
+}
+.oooo{
+	display: flex;
+	flex-direction: row;
+}
+.oooo i{
+	margin-top: 9px;
+	padding: 10px;
+}
+.uuuuu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flenext{
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: 30px;
+	background: transparent;
+	border-bottom: 1px solid grey;
+	padding: 0px 40px;
+}
+.fle2next{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.fle2next i{
+	font-size: 32px;
+
+}
+
+.fle21next{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.oooonext{
+	display: flex;
+	flex-direction: row;
+}
+.oooonext i{
+	margin-top: 9px;
+	padding: 10px;
+}
+.uuuuunext{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+/*11111111111111111111111111111111!!!!!!!!!!!!!!!1
+!!!!!!!!!!!!!!!!!!!!!!ABOUTUSABOUTUSABOUTUSABOUTUSABOUTUS
+ABOUTUSABOUTUSABOUTUSABOUTUSABOUTUSABOUTUSABOUTUSABOUTUS
+ABOUTUSABOUTUSABOUTUSABOUTUSABOUTUSABOUTUSABOUTUSABOUTUS*/
+.picandpara{
+	width: 70%;
+	height: auto;
+	border: 1px solid grey;
+	margin: 0px auto;
+	display: flex;
+	
+	gap: 70px;
+	margin-bottom: 30px;
+}
+.pp{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	padding-left: 30px;
+	padding-bottom: 2px;
+
+}
+.pfotor{
+	width: 100%;
+	display: flex;
+	height: 490px;
+	background: red;
+}
+.faa {
+	float: right;
+	font-size: 34px;
+	display: none;
+
+}
+
+/*page for the responsive we are going to make responsive*/
+/*!!!!!!!!!!!!!!Responsive page!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+@media (max-width: 600px){
+	.faa{
+		display: block;
+		position: absolute;
+		top: 30px;
+		right: 50px;
+
+
+	}
+
+	.achieving button{
+		font-size: 11px;
+
+	}
+	.james{
+		font-size: 30px;
+		display: inline-block;
+		left: 10px;
+		position: absolute;
+		font-weight: 600;
+		
+	}
+	.likebtn button{
+		width: 100%;
+	}
+	.click{
+		display: none;
+	}
+	.link{
+		display: none;
+	}
+	.faa i{
+		display:block;
+		margin-to: 30px;
+		float: right;
+		color: #fff;
+	}
+
+	.href a{
+		font-size: 14px;
+		padding: 4px;
+		display: none;
+
+	}
+	.three{
+	width: 80%;
+    margin: 0px auto;
+	border: 1px solid #c2bfbe;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: -100px;
+	text-align: center;
+	gap: 5px;
+
+
+}
+.four_para{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	color:#757575 ;
+	justify-content: center;
+	text-transform: uppercase;
+	text-align: center;
+	
+	border: 1px solid grey;
+	
+
+}
+.para_one
+{
+	font-size: 35px;
+	width: 100%;
+	
+	text-align: center;
+	
+	border-bottom: 1px solid grey;
+}
+
+.para_four
+{
+	font-size: 35px;
+	width: 100%;
+	
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	border-bottom: 1px solid grey;
+	
+}.para_two
+{
+	font-size: 35px;
+	width: 100%;
+	
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	border-bottom: 1px solid grey;
+}.para_three
+{
+	font-size: 35px;
+	width: 100%;
+	
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	border-bottom: 1px solid grey;
+}
+}
+
+
+@media (max-width: 885px){
+
+
+	.faa{
+		display: block;
+		position: absolute;
+		top: 0px;
+		right: 50px;
+		color: #fff;
+
+
+	}
+	.james{
+		font-size: 23px;
+		display: inline-block;
+		left: 10px;
+		position: absolute;
+		font-weight: 600;
+		top: 0px;
+		
+	}
+	.three{
+		display: flex;
+		flex-direction: column;
+	}
+	.href a{
+		font-size: 11px;
+		padding: 3px;
+		display: none!important;
+		
+	}
+	.click{
+		display: none;
+	}
+	.achieving button{
+		font-size: 11px;
+
+	}
+	.link{
+		display: none;
+	}
+	.james{
+		font-size: 30px;
+		display: inline-block;
+		left: 10px;
+		position: absolute;
+		font-weight: 600;
+		
+	}
+	.maping{
+	width: 100%;
+	height: auto;
+	background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.7)),url(img/istockphoto-500541389-1024x1024.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+.about{
+	font-size: 45px;
+	color: black;
+	text-transform: uppercase;
+	padding-top: 75px;
+	margin-bottom: 30px;
+}
+.pr {
+	width: 70%;
+	font-size: 14px;
+}
+.pr2 {
+	width: 70%;
+	font-size: 14px;
+}
+.bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: #0C3C60;
+	height: 70px;
+	width: 98.1%;
+	text-align: center;
+	align-items: center;
+	padding: 0px 90px;
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	
+	
+
+}
+
+}
+@media (max-width:1115px){
+
+
+	.href a{
+		font-size: 14px;
+		display: inline-block;
+		padding: 10px;
+
+	}
+}
+@media (max-width:886px){
+
+
+	.href a{
+		font-size: 16px;
+		display: inline-block;
+		padding: 4px;
+
+	}
+	.james{
+		font-size: 25px;
+	}
+}
+@media (max-width:970px){
+	.href a{
+		font-size: 14px;
+		display: inline-block;
+		padding: 3px;
+
+	}
+	.click{
+		font-size: 14px;
+
+	}
+	.href i{
+	margin-right: 6px;
+	font-size: 16px;
+}
+.bar{
+width: 98%;
+	}
+	.james{
+	
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	text-transform: uppercase;
+}
+
+}
+@media (max-width:1200px){
+
+
+	.href a{
+		font-size: 16px;
+		display: inline-block;
+		padding: 6px;
+
+	}
+
+	.james{
+		font-size: 25px;
+		gap: 8px;
+		
+	}
+}
+@media (max-width: 907px){
+	.href a{
+		font-size: 14px;
+		display:inline-block;
+		padding: 4px;
+
+	}
+	.bar{
+		width: 100%;
+		height: 80px;
+
+	}
+	.james{
+		font-size: 22px;
+		gap: 8px;
+		
+	}
+	.achieving button{
+		background: transparent;
+	border: 1px solid #0C3B5F;
+	width: fit-content;
+	font-size: 19px;
+	cursor: pointer;
+	margin-bottom: 1px;
+	text-transform: capitalize;
+	}
+	.book_consultation button{
+		width: 60%;
+		text-align: center;
+
+	}
+	.footer{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	background: #072136;
+	gap: 0px;
+	justify-content: center;
+	color: #ffffff;
+	text-align: center;
+	}
+
+}
+@media(max-width: 400px){
+
+	.achieving button{
+		background: transparent;
+	border: 1px solid #0C3B5F;
+	width: fit-content;
+	font-size: 19px;
+	cursor: pointer;
+	margin-bottom: 1px;
+	text-transform: capitalize;
+	}
+	.book_consultation button{
+		width: 100%;
+		text-align: center;
+
+	}
+	.bar{
+		width: 100%;
+	}
+
+	 .achieving button:hover{
+		width: fit-content;
+		
+	}
+	.footer{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	background: #072136;
+	gap: 0px;
+	justify-content: center;
+	color: #ffffff;
+	text-align: center;
+	}
+	h1{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-size: 45px;
+	color: #072136;
+}
+
+
+}
+@media(max-width: 1113px){
+.click{
+	display: flex;
+	gap: 25px;
+	/*margin-left: -340px;*/
+	margin-bottom: 10px;
+
+}
+.click i{
+	padding:0px  10px;
+	font-size: 18px;
+	margin-top: 27px;
+}
+
+
+}
+@media(max-width: 962px){
+	.click{
+	display: flex;
+
+	gap: 25px;
+	/*margin-left: -340px;*/
+	margin-bottom: 10px;
+
+}
+.click i{
+	padding:0px  10px;
+	font-size: 18px;
+	margin-top: 27px;
+}
+.link a{
+	margin-left: 2px;
+
+}
+.link{
+	font-size: 14px;
+}
+
+}
+@media(max-width: 1073px){
+	.click{
+	display: flex;
+
+	gap: 25px;
+	/*margin-left: -340px;*/
+	margin-bottom: 10px;
+
+}
+.click i{
+	padding:0px  10px;
+	font-size: 18px;
+	margin-top: 27px;
+}
+.link a{
+	margin-left: 2px;
+
+}
+.link{
+	font-size: 14px;
+}
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background: #072136;
+	gap: 50px;
+	justify-content: center;
+	color: #ffffff;
+
+}
+
+}
+
+}
